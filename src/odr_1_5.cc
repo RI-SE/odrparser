@@ -73,8 +73,8 @@ namespace odr_1_5 {
     }
 
     bool __parse__t_header_GeoReference(const tinyxml2::XMLElement *elem, t_header_GeoReference &obj) {
-
-
+        obj._projstring = elem->GetText();
+        
         return true;
 
     }

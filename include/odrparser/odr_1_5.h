@@ -228,6 +228,7 @@ namespace odr_1_5 {
     };
 
     struct t_header_GeoReference {
+        xsd::d_string _projstring;
     };
 
     struct t_header_Offset {
